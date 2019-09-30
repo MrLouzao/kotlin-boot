@@ -9,7 +9,7 @@ import java.lang.NullPointerException
 
 class WeatherRestClient: RestClient(BASE_URL) {
 
-    
+
     companion object {
         const val BASE_URL = "https://www.metaweather.com"
     }
